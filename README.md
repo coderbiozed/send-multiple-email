@@ -1,42 +1,54 @@
-<<<<<<< HEAD
-# Email Sender with Python
+# Send Multiple Emails Python Project
 
-This Python script allows you to send test email messages to multiple recipients using the `smtplib` library. If you receive these test emails in your Gmail inbox, it means the program is working correctly.
+This Python project demonstrates how to send multiple emails using Gmail as the SMTP server. It can be used for various purposes, such as sending notifications, newsletters, or announcements to multiple recipients.
 
 ## Prerequisites
 
-Before running the program, make sure you have the following:
+Before running this project, you'll need the following:
 
-- Python installed on your system.
-- Gmail account credentials (your Gmail email address and password).
-- Access to a local SMTP server or the SMTP server's hostname and port if using a local server.
-- A list of recipient email addresses.
+- Python 3.x installed on your system.
+- A Gmail account to use as the sender.
+- Gmail App Password or regular password for authentication.
+- Configuration details stored in a `.env` file (see below).
 
-## Usage
+## Installation
 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/coderbiozed/email-sender-python.git
+   git clone https://github.com/yourusername/send-multiple-email.git
+
+# Navigate to the project directory:in bash
 
 
-# Navigate to the project directory:
+cd send-multiple-email
 
-> cd email-sender-python
+# Install the required Python packages using pip:
 
- Run the Python script:
+pip install -r requirements.txt
 
-> python send_emails.py 
+## Configuration
 
-Configuration 
+# Create a .env file in the project directory.
+# Add the following configuration details to the .env file:
 
-In the send_emails.py script, you can configure the following:
+ -> SMTP_SERVER=smtp.gmail.com
+ -> SMTP_PORT=587
+ -> SENDER_EMAIL=your_email@gmail.com
+ -> SMTP_PASSWORD=your_app_password
 
-gmail_user: Your Gmail email address.
-gmail_password: Your Gmail password.
-smtp_server: Your local SMTP server's hostname or IP address.
-smtp_port: Your local SMTP server's port number.
-recipient_list: A list of recipient email addresses.
-=======
-# send-multiple-email
->>>>>>> 04000cc99fadc5f3aa4ec4056388d23fd879b8ab
+
+## Usage
+# Run the Python script to send emails to the recipients:
+
+python send_emails.py
+
+## Troubleshooting
+
+If you encounter any issues, 
+👉 make sure that your Gmail account settings allow less secure apps or use an App Password.
+👉Double-check your .env file for correct configuration details.
+👉Ensure that you have Python 3.x installed and the required packages installed from requirements.txt.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
