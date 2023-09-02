@@ -20,10 +20,8 @@ Before running this project, you'll need the following:
 
 ## Navigate to the project directory: 
 
-     ```bash
-     1. Run THis Command 
-
- cd send-multiple-email .
+cd send-multiple-email
+  
 
 ## Install the required Python packages using pip:
 
@@ -34,10 +32,10 @@ pip install -r requirements.txt
 ### Create a .env file in the project directory.
 ### Add the following configuration details to the .env file:
 
- -> SMTP_SERVER=smtp.gmail.com
- -> SMTP_PORT=587
- -> SENDER_EMAIL=your_email@gmail.com
- -> SMTP_PASSWORD=your_app_password
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+SENDER_EMAIL=your_email@gmail.com
+SMTP_PASSWORD=your_app_password
 
 
 ## Usage
