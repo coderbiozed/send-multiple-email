@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Email Sender with Python
 
 This Python script allows you to send test email messages to multiple recipients using the `smtplib` library. If you receive these test emails in your Gmail inbox, it means the program is working correctly.
@@ -36,3 +37,6 @@ gmail_password: Your Gmail password.
 smtp_server: Your local SMTP server's hostname or IP address.
 smtp_port: Your local SMTP server's port number.
 recipient_list: A list of recipient email addresses.
+=======
+# send-multiple-email
+>>>>>>> 04000cc99fadc5f3aa4ec4056388d23fd879b8ab
