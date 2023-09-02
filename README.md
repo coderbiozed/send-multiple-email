@@ -16,21 +16,23 @@ Before running this project, you'll need the following:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/send-multiple-email.git
+   git clone https://github.com/coderbiozed/send-multiple-email.git
 
-# Navigate to the project directory:in bash
+## Navigate to the project directory: 
 
+     ```bash
+     1. Run THis Command 
 
-cd send-multiple-email
+ cd send-multiple-email .
 
-# Install the required Python packages using pip:
+## Install the required Python packages using pip:
 
 pip install -r requirements.txt
 
 ## Configuration
 
-# Create a .env file in the project directory.
-# Add the following configuration details to the .env file:
+### Create a .env file in the project directory.
+### Add the following configuration details to the .env file:
 
  -> SMTP_SERVER=smtp.gmail.com
  -> SMTP_PORT=587
@@ -39,7 +41,7 @@ pip install -r requirements.txt
 
 
 ## Usage
-# Run the Python script to send emails to the recipients:
+### Run the Python script to send emails to the recipients:
 
 python send_emails.py
 
