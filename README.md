@@ -51,6 +51,15 @@ Before running this project, you'll need the following:
 - SENDER_EMAIL=your_email@gmail.com
 - SMTP_PASSWORD=your_app_password
 
+   
+
+   ### A Mailtrap account to use as the sender.
+   ### Mailtrap SMTP configuration details (see below).
+   - SMTP_SERVER=smtp.mailtrap.io
+   - SMTP_PORT=2525
+   - SMTP_USERNAME=your_mailtrap_username
+   - SMTP_PASSWORD=your_mailtrap_password
+
 
 ## Usage
 

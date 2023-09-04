@@ -1,0 +1,5 @@
+Subject: Test Message from Python
+
+Hello, this is a test email sent from Python using Mailtrap SMTP.
+
+Thanks
