@@ -34,11 +34,11 @@ Before running this project, you'll need the following:
    git clone https://github.com/coderbiozed/send-multiple-email.git
 
 2. Navigate to the project directory: 
-
+   ```bash
    `cd send-multiple-email`
 
 3. Install the required Python packages using pip:
-
+   ```bash
    `pip install -r requirements.txt`
 
 ## Configuration
